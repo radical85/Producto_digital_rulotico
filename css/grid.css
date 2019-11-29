@@ -1,0 +1,90 @@
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #313337;
+  font-size: 30px;
+
+}
+/* empieza maquetacion container */
+.container{
+  max-width: 900px;
+  margin:auto;
+
+
+}
+
+.row{
+  display: flex;
+}
+
+.col-1{
+  width: 8.3333333333%;
+}
+
+.col-2{
+  width: 16.6666666666%;
+}
+.col-3{
+  width: 24.999999999%;
+}
+.col-4{
+  width: 33.333333332%;
+}
+.col-5{
+  width: 41.666666665%;
+}
+.col-6{
+  width: 49.999999998%;
+}
+.col-7{
+  width: 58.333333331%;
+}
+.col-8{
+  width: 66.666666664%;
+}
+.col-9{
+  width: 74.999999997%;
+}
+.col-10{
+  width: 83.33333333%;
+}
+.col-11{
+  width: 91.666666663%;
+}
+.col-12{
+  width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  padding: 10px;
+}
+
+
+@media (max-width: 900px) {
+    .row{
+      display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+      width: 100%;
+
+    }
+}
+.container_producto1,.container_producto2,.container_producto3{
+  border-width: 2px;
+  border-color: black;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+}
+ .text_col4, h3{
+  padding-top: 30px;
+}
+.img_content_1{
+  padding-left: 70px;
+}
+
+
+
+footer{
+  display: flex;
+}
+/* container > row > column */

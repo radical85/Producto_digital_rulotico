@@ -1,0 +1,18 @@
+@media  (max-width: 600px){
+
+    .products{
+      display: inherit;
+      height: auto;
+    }
+    .product{
+      padding: 10px;
+      margin-top: auto;
+    }
+    .main_section{
+      padding: 4%;
+    }
+    .skills, .mentions{
+      display: inherit;
+    }
+
+}
